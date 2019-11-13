@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class YesNoController : MonoBehaviour
 {
@@ -18,7 +16,6 @@ public class YesNoController : MonoBehaviour
 
     void Start()
     {
-
         _yesObject.transform.localScale = Vector3.zero;
         _noObject.transform.localScale = Vector3.zero;
 
